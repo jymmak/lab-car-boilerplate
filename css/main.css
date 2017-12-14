@@ -129,9 +129,32 @@ hr{
 @media(min-width: 0) and (max-width: 767px) {
   .secondcontent {
     display: block;
+    height: 40vh;
   }
   .bigcontent {
     display: none;
+  }
+ 
+  .start {
+    color: #fff;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 55px;
+  }
+  .plogowhite{
+    color: #fff;
+    font-size: 40px;
+    padding-left: 31px;
+  }
+  .imglogow {
+    width: 120px;
+    height: 40px;
+  }
+  .bottomwhite {
+    margin-top: 30px;
+    height: 6vh;
+    width: 25vh;
   }
 }
 
@@ -139,6 +162,10 @@ hr{
 @media(min-width: 768px) and (max-width: 1024px) { 
   .bigcontent {
     display: block;
+    height: 50vh;
+    width: 100%;
+    margin-top: 270px;
+    
   }
   .secondcontent {
     display: none;
