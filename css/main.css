@@ -136,21 +136,21 @@ hr{
 }
 
 /*tablets*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .secondcontent {
-    display: none;
-  }
+@media(min-width: 768px) and (max-width: 1024px) { 
   .bigcontent {
     display: block;
+  }
+  .secondcontent {
+    display: none;
   }
 }
 /*desktop*/
-@media (min-width: 1025px) and (max-width:1427px){
-  .secondcontent {
-    display: none;
-  }
+@media(min-width: 1025px) and (max-width:1427px){
   .bigcontent {
     display: block;
+  }
+  .secondcontent {
+    display: none;
   }
 }
 
