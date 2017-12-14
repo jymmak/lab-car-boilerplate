@@ -1,7 +1,5 @@
 /* Los estilos de tu proyecto */
 
-/* Reset */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +11,6 @@
   padding-left:40px;
   padding-right:100px;
 }
-
 .navcoll {
   background-color: #fff;
   padding-top: 35px;
@@ -138,4 +135,22 @@ hr{
   }
 }
 
+/*tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .secondcontent {
+    display: none;
+  }
+  .bigcontent {
+    display: block;
+  }
+}
+/*desktop*/
+@media (min-width: 1025px) and (max-width:1427px){
+  .secondcontent {
+    display: none;
+  }
+  .bigcontent {
+    display: block;
+  }
+}
 
