@@ -129,7 +129,7 @@ hr{
 @media(min-width: 0) and (max-width: 767px) {
   .secondcontent {
     display: block;
-    height: 30vh;
+    height: 45vh;
     margin-top: 300px;
   }
   .bigcontent {
