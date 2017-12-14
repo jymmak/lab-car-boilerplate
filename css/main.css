@@ -6,16 +6,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
+/*Nav*/
 .links{
   padding-left:40px;
   padding-right:100px;
 }
+
 .navcoll {
   background-color: #fff;
   padding-top: 35px;
   padding-bottom: 32px;
-  padding-left: 2%;
+  padding-left: 1%;
   font-size: 16px;
 }
 .logonav{
@@ -28,3 +31,111 @@
   float: left;
   margin-left: 10px;
 }
+/*Formulario*/
+.imgwhite{
+	background-image: url(../assets/images/taxi.jpg);
+	background-position: 20% 91%;
+	height: 830px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	color: #fff;
+	min-height: 500px;
+}
+.btn{
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+.yellowbox {
+  background-color: #F7B617;
+  height: 415px;
+  margin-top: 270px;
+}
+.trip {
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 25px;
+  font-size: 30px;
+}
+.time {
+  margin-top: 0;
+  color: #fff;
+  padding-left: 25px;
+  font-size: 30px;
+}
+.travel {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.logow {
+  width: 98px;
+  height: 23px;
+  margin-left: 10px;
+}
+.btn-default {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.bottom{
+  width:100%;
+}
+td {
+  color: #fff;
+  font-size: 15px;
+  padding: 30px;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+hr{
+  width: 120px;
+  margin-left: 15px;
+}
+
+.driver {
+  margin-left: 28px;
+}
+.boxs {
+  background-color: #F7B617;
+  height: 240px;
+  margin-top: 410px;
+}
+.start {
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-left: 25px;
+  font-size: 30px;
+}
+.plogowhite{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 25px;
+}
+.imglogows {
+  width: 73px;
+  height: 18px;
+}
+.bottomwhite {
+  margin-top: 25px;
+}
+
+/* mediasquery */
+
+/*Movil*/
+
+@media(min-width: 0) and (max-width: 767px) {
+  .secondcontent {
+    display: block;
+  }
+  .bigcontent {
+    display: none;
+  }
+}
+
+
