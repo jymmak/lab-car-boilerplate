@@ -1,1 +1,30 @@
 /* Los estilos de tu proyecto */
+
+/* Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.links{
+  padding-left:40px;
+  padding-right:100px;
+}
+.navcoll {
+  background-color: #fff;
+  padding-top: 35px;
+  padding-bottom: 32px;
+  padding-left: 2%;
+  font-size: 16px;
+}
+.logonav{
+  width: 130px;
+  height: 40px;
+  padding-top: 10px;
+}
+.navbar-toggle {
+  background-color: #fff;
+  float: left;
+  margin-left: 10px;
+}
