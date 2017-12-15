@@ -28,7 +28,7 @@
   float: left;
   margin-left: 10px;
 }
-/*Formulario*/
+/*Registro*/
 .imgwhite{
 	background-image: url(../assets/images/taxi.jpg);
 	background-position: 20% 91%;
@@ -121,6 +121,50 @@ hr{
 .bottomwhite {
   margin-top: 25px;
 }
+/* Descarga app*/
+.app{
+	background-color: #F7B617;
+	color:#fff;
+  font-weight: lighter;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+}
+
+.app p{
+	margin-top: 40px;
+  font-size: 21px;
+  padding-right: 70px;
+  margin-bottom: 22px;
+  text-align: justify;
+}
+.marco{
+	border:1px solid white;
+	height: 450px;
+  margin-top:40px;
+  margin-bottom: 25px;
+}
+
+.app h3{
+	font-size: 25px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 35px;
+}
+.textapp{
+  color: #fff;
+  font-size: 21px;
+  margin-top: 570px;
+  position: relative;
+  margin-left: 50px;
+}
+.img-responsive{
+  height: 380px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
 
 /* mediasquery */
 
@@ -135,6 +179,19 @@ hr{
   .bigcontent {
     display: none;
   }
+  .marco{
+  margin-left: 34px;
+  height: 80vh;
+  width: 75vh;
+  position:absolute;
+  }
+  .img-responsive{
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+ 
+ 
 }
 
 /*tablets*/
