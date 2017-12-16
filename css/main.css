@@ -39,10 +39,7 @@
 	color: #fff;
 	min-height: 500px;
 }
-.btn{
-  white-space: normal !important;
-  word-wrap: break-word;
-}
+
 .yellowbox {
   background-color: #F7B617;
   height: 415px;
@@ -93,7 +90,6 @@ hr{
   width: 120px;
   margin-left: 15px;
 }
-
 .driver {
   margin-left: 28px;
 }
@@ -130,7 +126,6 @@ hr{
   background-repeat: no-repeat;
   background-position: 60% 50%;
 }
-
 .app p{
 	margin-top: 40px;
   font-size: 21px;
@@ -144,7 +139,6 @@ hr{
   margin-top:40px;
   margin-bottom: 25px;
 }
-
 .app h3{
 	font-size: 25px;
   font-weight: bold;
@@ -163,6 +157,42 @@ hr{
   margin-top: 30px;
   margin-left: 30px;
   margin-bottom: 20px;
+}
+/* Conviertete en conductor*/
+.conduce{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  object-fit: cover;
+  background-size: cover;
+  overflow-y: hidden;
+}
+.conduce .driv{
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 0;
+  height: 70vh;
+}
+.driv {
+  margin-top: 25vh;
+  margin-right: -2.3vh;
+  background-color: #F7B617;
+  border: none;
+  padding: 6vh;
+  color: #FFF;
+  margin-left: -15px;
+}
+.driv h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+} 
+.driv p{
+  font-size: 19px;
+}
+.bottondriv{
+  background-color: #F7B617;
+  margin-left: 0px;
 }
 
 
@@ -201,7 +231,6 @@ hr{
     height: 50vh;
     width: 100%;
     margin-top: 270px;
-    
   }
   .secondcontent {
     display: none;
