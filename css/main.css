@@ -6,6 +6,7 @@
   padding: 0;
   overflow-x: hidden;
 }
+
 /*Nav*/
 .links{
   padding-left:40px;
@@ -195,6 +196,114 @@ hr{
   margin-left: 0px;
 }
 
+/* Tarifas y mapa */
+.rate {
+  margin-top: 0;
+  color: #fff;
+  padding: 20px;
+  padding-left: 10%;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.ask {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal!important;
+  padding: 20px;
+  padding-left: 10%;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+.map {
+  height: 60vh;
+  width:100%;
+}
+
+#partida {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F7B617;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: #fff 1px solid;
+}
+#destino {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #F7B617;
+  border: #fff 1px solid;
+  color: #fff;
+}
+.glyphicon-record:before {
+  color: #fff;
+  font-size: 20px;
+}
+.glyphicon-map-marker:before {
+  color: #fff;
+  font-size: 20px;
+}
+.ruta {
+  margin-left: 36%;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 175px;
+  color: #2B2B2B;
+  margin-top: 30px;
+}
+#taradd,#taradd2 {
+  padding: 10px;
+  margin: 20px;
+  background-color: #F7B617;
+  border: none
+}
+.colorgreen {
+  background-color: #F7B617;
+  padding-bottom: 40px;
+}
+.colorpink {
+  background-color: #F7B617;
+  height: 550px;
+}
+.coloryellow {
+  background-color: #F7B617;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 9%;
+  width: 65vh;
+  border-radius: 5px;
+}
+.colorpurple {
+  background-color: #F7B617;
+  border: 1px solid #fff;
+  margin-left: 5.2%;
+  width: 40%;
+  margin-top: 5%;
+}
+.mapa {
+  padding-bottom: 8px;
+  padding-top: 13px;
+}
+
+.minmap{
+  height: 60vh;
+  width: 100px;
+}
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* mediasquery */
 
@@ -220,8 +329,40 @@ hr{
     margin-top: 50px;
     margin-left: 70px;
   }
- 
- 
+  .map{
+    display:none;
+  }
+  .mapa {
+    height: 200px!important;
+    margin-left: 22px;
+    margin-top: 13px;
+  }
+  .colorpurple{
+  width: 75%;
+  margin-left: 56px;
+  }
+  .rate {
+    margin-top: 0;
+    color: #fff;
+    padding: 20px;
+    padding-left: 13px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+  .coloryellow {
+    margin-left: 0;
+    width: 90%;
+  }
+  .ask {
+    padding-left: 13px;
+  }
+  .ruta {
+    margin-left: 30%;
+  }
+  .colorpink {
+    height: 450px;
+  }
+
 }
 
 /*tablets*/
@@ -235,6 +376,9 @@ hr{
   .secondcontent {
     display: none;
   }
+  .minimap{
+    display:none; 
+  }
 }
 /*desktop*/
 @media(min-width: 1025px) and (max-width:1427px){
@@ -244,5 +388,8 @@ hr{
   .secondcontent {
     display: none;
   }
+ .minimap{
+  display:none; 
+ }
 }
 

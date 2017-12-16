@@ -119,23 +119,64 @@
   <!-- Conviertete en conductor -->
   <section class="conduce">
     <div class="row">
-       <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 pull-right">
-         <div class="driv">
+      <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 pull-right">
+        <div class="driv">
           <h1>Conduce cuando quieras</h1>
           <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-          <button type="button" class="btn btn-default btn-lg bottondriv ">Conviértete en conductor</button>
+          <button type="button" class="btn btn-default btn-lg bottondriv">Conviértete en conductor</button>
         </div>
-       </div>
+      </div>
     </div>
   </section>
 
+  <!-- Tarifas y mapa -->
   <section>
-
-
-
+    <div class="row">
+      <div class="col-xs- col-xs-12 col-md-12 col-lg-12 colorgreen">
+        <div class="col-xs- col-xs-12 col-md-6 col-lg-6 colorpink">
+          <h1 class="rate">Tarifas</h1>
+          <p class="ask">Consulta las tarifas LabCar aquí</p>
+          <form class="coloryellow">
+            <div class="input-group">
+              <span class="input-group-addon" id="taradd">
+                <i class="glyphicon glyphicon-record"></i>
+              </span>
+              <input id="partida" type="text" class="form-control " name="partida" placeholder="Ingrese su punto de partida">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon" id="taradd2">
+                <i class="glyphicon glyphicon-map-marker"></i>
+              </span>
+              <input id="destino" type="text" class="form-control " name="destino" placeholder="Ingrese su destino">
+            </div>
+            <button type="button" class="btn btn-default btn-lg ruta">¡TRAZAR RUTA!</button>
+          </form>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-6 colorpurple">
+          <div class="mapa">
+            <!-- Versión desktop -->
+            <iframe class="map embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d32305241.361294094!2d-74.94649704775385!3d-8.73790404608266!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512486010665"></iframe>
+            <!-- Versión movil -->
+            <iframe class="minimap embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13319.056954267287!2d-70.64810674124291!3d-33.42939042874666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x9662c5ebb6bcdd1f%3A0x98ac0f5d7d2c951f!2sPuma+1180%2C+Recoleta%2C+Regi%C3%B3n+Metropolitana!3m2!1d-33.4190456!2d-70.6417604!4m5!1s0x9662c59b6ee5a887%3A0x43a746bfa98d9592!2sCentro+Gabriela+Mistral+-+Av+Libertador+Bernardo+O&#39;Higgins+227%2C+Santiago%2C+Regi%C3%B3n+Metropolitana!3m2!1d-33.4392484!2d-70.6397805!5e0!3m2!1ses-419!2scl!4v1512510328118"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- Footer-->
   <footer>
+
+
+
+
+
+
+
+
+
+
+
     <script src="vendors/js/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
