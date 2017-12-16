@@ -286,21 +286,21 @@ hr{
   padding-top: 13px;
 }
 
-.minmap{
-  height: 60vh;
-  width: 100px;
+.minimap{
+  height: 370px;
+  width: 50vh;
+  padding: 2vh 1vh 1vh 2vh;
 }
+/*Extraido de: https://stackoverflow.com/questions/20773665/fail-to-change-placeholder-color-with-bootstrap-3*/
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+
 
 /* Footer */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -333,13 +333,14 @@ hr{
     display:none;
   }
   .mapa {
-    height: 200px!important;
+    height: 400px!important;
     margin-left: 22px;
     margin-top: 13px;
   }
   .colorpurple{
   width: 75%;
   margin-left: 56px;
+  height: 70vh;
   }
   .rate {
     margin-top: 0;
