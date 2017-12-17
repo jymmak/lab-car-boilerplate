@@ -20,10 +20,10 @@
   font-size: 16px;
 }
 .logonav{
-  width: 20vh;
-  height: 40px;
-  padding-top: 10px;
-  margin-left: 50px;
+  width: 13vw;
+  height: 50px;
+  padding-top: 8px;
+  margin-left: 60px;
 }
 .navbar-toggle {
   background-color: #fff;
@@ -272,7 +272,7 @@ hr{
   color: #fff;
   font-size: 18px;
   margin-left: 9%;
-  width: 65vh;
+  width: 35vw;
   border-radius: 5px;
 }
 .colorpurple {
@@ -289,7 +289,7 @@ hr{
 
 .minimap{
   height: 370px;
-  width: 50vh;
+  width: 50vw;
   padding: 2vh 1vh 1vh 2vh;
 }
 
@@ -308,7 +308,7 @@ hr{
 }
 .linea{
   color: #fff;
-  width: 400vh;
+  width: 200vw;
   margin-left: 5px;
 }
 .menuFooter li{
@@ -329,19 +329,20 @@ hr{
 	margin-right: 10px;
 }
 .appstore{
-  margin-top: 120px;
+  margin-top: 115px;
   height: 40px;
-  width: 23vh;
+  width: 14vw;
+  position: absolute;
   background-repeat: no-repeat;
 }
 .googleplay  {
-  margin-top: 10px;
+  margin-top: 180px;
   height: 40px;
-  width: 23vh;
+  width: 14vw;
+  position: relative;
   background-repeat: no-repeat;
 }
-
-/* mediasquery */
+/* Mediasquery */
 
 /*Movil*/
 
@@ -357,7 +358,7 @@ hr{
   .marco{
   margin-left: 34px;
   height: 80vh;
-  width: 75vh;
+  width: 90vw;
   position:absolute;
   }
   .img-responsive{
@@ -399,10 +400,37 @@ hr{
   .colorpink {
     height: 450px;
   }
-
+  .logonav{
+    width: 26vw;
+    height: 50px;
+    margin-top: 18px;
+    margin-left: 60px;
+  }
+  .appstore{
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+  }
+  .googleplay{
+    width: 130px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+  .iconos{
+    margin-left: 302px;
+    margin-top: 0%;
+  }
+  .modal-content {
+    width: 90%;
+    margin-left: 5%;
+  }
+ 
 }
 
-/*tablets*/
+
+/*Tablets*/
 @media(min-width: 768px) and (max-width: 1024px) { 
   .bigcontent {
     display: block;
@@ -417,7 +445,7 @@ hr{
     display:none; 
   }
 }
-/*desktop*/
+/*Desktop*/
 @media(min-width: 1025px) and (max-width:1427px){
   .bigcontent {
     display: block;
@@ -428,5 +456,58 @@ hr{
  .minimap{
   display:none; 
  }
+}
+
+/* Modales */
+/* Inicio sesion */
+.modal-content{
+  background-color: #08AC9D;
+  width: 65%;
+  margin-left: 20%;
+  min-height: 16.43px;
+	padding: 15px 15px 15px 15px;
+	border-bottom: 0px;
+}
+.imguser{
+  width: 35%;
+  border-radius: 5px;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  margin-top: 20px;
+}
+button.close{
+  font-size: 3rem;
+}
+.insidemodalb{
+  background-color: #F5F5F5;
+  height: 300px;
+  width: 90%;
+  border-radius: 5px;
+  margin-left: 6%;
+  margin-bottom: 5%;
+  margin-top: 10px;
+}
+#insig{
+  padding-top: 40px;
+  width: 90%;
+  margin-left: 5%;
+}
+.btnlog{
+  background-color: #F7B617;
+  color:#fff!important;
+  margin-left: 35%!important;
+  margin-top: 5%!important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.textclick{
+  color: #A52A2A;
+  margin-left: 1%;
+  font-size: 18px;
+}
+.textpass{
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 18px;
 }
 
