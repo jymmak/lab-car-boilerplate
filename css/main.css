@@ -536,7 +536,7 @@ input#name, .form-control{
   padding-top: 2%;
 }
 #name{
-    margin-left: 7%;
+  margin-left: 7%;
   width: 14vw;
   position: absolute;
 }
@@ -558,6 +558,22 @@ input#name, .form-control{
 }
 #send{
   width: 90%;
+  margin-bottom: 3%;
+  background-color: #5BC0DE;
+  color:#fff;
+  border:none;
+}
+
+/* Modal conviertete en conductor */
+.modal-content{
+  background-color: #A9A9A9;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 5px;
+  
+}
+.send2{
+  width: 100%;
   margin-bottom: 3%;
   background-color: #5BC0DE;
   color:#fff;

@@ -122,7 +122,7 @@
         <div class="driv">
           <h1>Conduce cuando quieras</h1>
           <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-          <button type="button" class="btn btn-default btn-lg bottondriv">Conviértete en conductor</button>
+          <button data-toggle="modal" data-target=".conviertete-modal-lg" class="btn btn-default btn-lg bottondriv">Conviértete en conductor</button>
         </div>
       </div>
     </div>
@@ -302,7 +302,7 @@
   </div>
 
 
-  <!-- Modal signinup -->
+  <!-- Modal registrate -->
   <div class="modal fade" id="modalsignup">
     <div class="modal-dialog modal-lg">
       <div class="modal-content2">
@@ -325,7 +325,7 @@
 
           <input type="text" class="form-control" id="inv" placeholder="(Opcional) Código de invitación">
         </div>
-        <div >
+        <div>
           <button type="submit" class="btn btn-default btn-lg" id="how">¿Cómo te enteraste de nosotros?</button>
           <button type="submit" class="btn btn-default btn-lg" id="send">ENVIAR</button>
         </div>
@@ -333,14 +333,74 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
-
+  <!--Modal conviertete en conductor-->
+  <div class="modal fade conviertete-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="form-group">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <label class="col-md-12 control-label" for="typeHypo">¿Tienes vehiculos de 4 puertas?</label>
+          <div class="col-md-12">
+            <select id="typeHypo" name="typeHypo" class="form-control">
+              <option value="1">SI</option>
+              <option value="2">NO</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-12 control-label" for="typeHypo">Marca</label>
+          <div class="col-md-12">
+            <select id="typeHypo" name="typeHypo" class="form-control">
+              <option value="1">Elige la marca del vehiculo</option>
+              <option value="2">Toyota</option>
+              <option value="2">Mazda</option>
+              <option value="2">Fiat</option>
+            </select>
+          </div>
+          <div class="col-md-12">
+            <p>¿No ves tu vehiculo en la lista? Envia un correo electronico a
+              <a href="">socioslabCar@labcar.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-12 control-label" for="typeHypo">Marca</label>
+          <div class="col-md-12">
+            <select id="typeHypo" name="typeHypo" class="form-control">
+              <option value="1">Modelo</option>
+              <option value="2">Modelo1</option>
+              <option value="2">Modelo2</option>
+              <option value="2">Modelo3</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <!-- año-->
+          <label class="col-md-12 control-label" for="typeHypo">Año</label>
+          <div class="col-md-12">
+            <select id="typeHypo" name="typeHypo" class="form-control">
+              <option value="1">2017</option>
+              <option value="2">2016</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-12 control-label" for="typeHypo">Numero de Matricula</label>
+          <div class="col-md-12">
+            <input id="login_username" class="form-control" type="text" placeholder="Numero de Matricula" required>
+          </div>
+          <div class="col-md-12">
+            <p>La información de la matricula ayuda a los clientes a identificar tu vehículo</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div>
+            <button type="submit" class="btn btn-warning btn-lg send2 ">ENVIAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="vendors/js/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
