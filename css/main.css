@@ -422,9 +422,8 @@ hr{
     margin-left: 302px;
     margin-top: 0%;
   }
-  .modal-content{
-    background-color: #08AC9D;
-    width: 85%;
+  #modalsignin{
+    width:80vh;
   }
 }
 
