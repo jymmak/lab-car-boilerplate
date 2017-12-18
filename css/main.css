@@ -266,7 +266,7 @@ hr{
 }
 .colorpink {
   background-color: #F7B617;
-  height: 300px;
+  height: 400px;
 }
 .coloryellow {
   background-color: #F7B617;
@@ -385,7 +385,7 @@ hr{
     color: #fff;
     padding: 20px;
     padding-left: 13px;
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 10px;
   }
   .coloryellow {
@@ -399,7 +399,7 @@ hr{
     margin-left: 30%;
   }
   .colorpink {
-    height: 450px;
+    height: 480px;
   }
   .logonav{
     width: 26vw;
