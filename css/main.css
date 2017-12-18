@@ -144,7 +144,7 @@ hr{
 .app h3{
 	font-size: 25px;
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-left: 35px;
 }
 .textapp{
@@ -155,10 +155,10 @@ hr{
   margin-left: 50px;
 }
 .img-responsive{
-  height: 380px;
+  height: 250px;
   margin-top: 30px;
   margin-left: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 /* Conviertete en conductor*/
 .conduce{
@@ -203,7 +203,7 @@ hr{
   color: #fff;
   padding: 20px;
   padding-left: 10%;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 .ask {
@@ -215,6 +215,7 @@ hr{
   padding-top: 0;
   padding-bottom: 5px;
 }
+
 .map {
   height: 60vh;
   width:100%;
@@ -257,7 +258,7 @@ hr{
   padding: 10px;
   margin: 20px;
   background-color: #F7B617;
-  border: none
+  border: none;
 }
 .colorgreen {
   background-color: #F7B617;
@@ -265,7 +266,7 @@ hr{
 }
 .colorpink {
   background-color: #F7B617;
-  height: 550px;
+  height: 300px;
 }
 .coloryellow {
   background-color: #F7B617;
@@ -410,20 +411,21 @@ hr{
     width: 130px;
     height: 40px;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 30px;
   }
   .googleplay{
     width: 130px;
     height: 40px;
     margin-top: 100px;
-    margin-left: 60px;
+    margin-left: 30px;
   }
   .iconos{
     margin-left: 302px;
     margin-top: 0%;
   }
   #modalsignin{
-    width:80vh;
+    width:120vw;
+    margin-left: 5px;
   }
 }
 
@@ -466,6 +468,7 @@ hr{
 	padding: 15px 15px 15px 15px;
 	border-bottom: 0px;
 }
+
 .imguser{
   width: 35%;
   border-radius: 5px;
