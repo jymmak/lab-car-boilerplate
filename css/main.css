@@ -241,10 +241,12 @@ hr{
 .glyphicon-record:before {
   color: #fff;
   font-size: 20px;
+  line-height: 3p;
 }
 .glyphicon-map-marker:before {
   color: #fff;
   font-size: 20px;
+  line-height: 3;
 }
 .ruta {
   margin-left: 36%;
@@ -376,9 +378,9 @@ hr{
     margin-top: 13px;
   }
   .colorpurple{
-  width: 75%;
-  margin-left: 56px;
-  height: 70vh;
+    width: 75%;
+    margin-left: 56px;
+    height: 70vh;
   }
   .rate {
     margin-top: 0;
