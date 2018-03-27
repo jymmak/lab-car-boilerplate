@@ -1,7 +1,7 @@
 # Lab<ar
 Comienza a viajar con Labcar .....disfruta el viaje eres dueño de tu tiempo. 
 
-![Lab<car-preview](https://user-images.githubusercontent.com/32302955/37930428-x582da692-3108-11e8-9dc6-f170d1723dd0.png)
+![Labcar-preview](https://user-images.githubusercontent.com/32302955/37941205-a56b6316-3132-11e8-98b9-e97f89451b4c.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
