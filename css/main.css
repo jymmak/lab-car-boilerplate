@@ -137,9 +137,11 @@ hr{
 }
 .marco{
 	border:1px solid white;
-	height: 450px;
+  height: 450px;
+  width: 80vw;
   margin-top:40px;
   margin-bottom: 25px;
+
 }
 .app h3{
 	font-size: 25px;
@@ -155,10 +157,8 @@ hr{
   margin-left: 50px;
 }
 .img-responsive{
-  height: 250px;
   margin-top: 30px;
   margin-left: 30px;
-  margin-bottom: 10px;
 }
 /* Conviertete en conductor*/
 .conduce{
@@ -241,7 +241,7 @@ hr{
 .glyphicon-record:before {
   color: #fff;
   font-size: 20px;
-  line-height: 3p;
+  line-height: 3;
 }
 .glyphicon-map-marker:before {
   color: #fff;
@@ -291,9 +291,8 @@ hr{
 }
 
 .minimap{
-  height: 370px;
-  width: 50vw;
-  padding: 2vh 1vh 1vh 2vh;
+  height: 390px;
+  width: 100vw;
 }
 
 
@@ -359,13 +358,13 @@ hr{
     display: none;
   }
   .marco{
-  margin-left: 34px;
+  margin-left: 27px;
   height: 80vh;
   width: 90vw;
   position:absolute;
   }
   .img-responsive{
-    height: 320px;
+    height: 300px;
     margin-top: 50px;
     margin-left: 70px;
   }
@@ -373,14 +372,12 @@ hr{
     display:none;
   }
   .mapa {
-    height: 400px!important;
-    margin-left: 22px;
-    margin-top: 13px;
+    height: 80vh;
   }
   .colorpurple{
-    width: 75%;
-    margin-left: 56px;
-    height: 70vh;
+    width: 80%;
+    margin-left: 40px;
+    height: 85vh;
   }
   .rate {
     margin-top: 0;
@@ -422,7 +419,6 @@ hr{
     margin-left: 30px;
   }
   .iconos{
-    margin-left: 302px;
     margin-top: 0%;
   }
   #modalsignin{
@@ -434,17 +430,32 @@ hr{
 
 /*Tablets*/
 @media(min-width: 768px) and (max-width: 1024px) { 
+  
   .bigcontent {
     display: block;
-    height: 50vh;
+    height: 80vh;
     width: 100%;
     margin-top: 270px;
   }
+
   .secondcontent {
     display: none;
   }
   .minimap{
     display:none; 
+  }
+  .img-responsive{
+    height: 390px;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  .marco{
+    border:1px solid white;
+    height: 450px;
+    width: 70vw;
+    margin-top:40px;
+    margin-bottom: 25px;
+    margin-left: 8%;
   }
 }
 /*Desktop*/
@@ -458,6 +469,7 @@ hr{
  .minimap{
   display:none; 
  }
+
 }
 
 /* Modales */
