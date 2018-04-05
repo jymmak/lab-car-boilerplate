@@ -156,6 +156,7 @@ hr{
   margin-left: 50px;
 }
 .img-responsive{
+  width: 80%;
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -473,16 +474,18 @@ hr{
  }
  .img-responsive{
   height: 300px;
-  margin-top: 30px;
+  margin-top: 40px;
  }
  .marco{
   border:1px solid white;
-  height: 450px;
+  height: 480px;
   width: 70vw;
   margin-top:40px;
   margin-bottom: 25px;
-
  }
+.text{
+  margin-top: 7%;
+}
 }
 
 /* Modales */
